@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Passing Data to Android NDK</string>
+    <string name="call_back_from_jni">call back from Jni</string>
+    <string name="call">Get String From JNI</string>
+    <string name="hello_world">hello world</string>
+    <string name="pass_data">pass data To JNI</string>
+    <string name="pass_obj">pass obj To JNI</string>
+    <string name="get_obj">get obj From JNI</string>
+    <string name="passed">Passed</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnget"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:onClick="onclick"
+        android:text="@string/call"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/btnget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnget"
+        app:layout_constraintTop_toTopOf="@+id/btnget" />
+
+
+    <Button
+        android:id="@+id/btnpass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onclick"
+        android:textSize="15sp"
+        android:text="@string/pass_data"
+        app:layout_constraintEnd_toEndOf="@+id/btnget"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnget"
+        app:layout_constraintTop_toBottomOf="@+id/btnget" />
+
+
+    <TextView
+        android:id="@+id/txtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnpass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnpass"
+        app:layout_constraintTop_toTopOf="@+id/btnpass" />
+
+    <Button
+        android:id="@+id/btnobj"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onclick"
+        android:textSize="15sp"
+        android:text="@string/pass_obj"
+        app:layout_constraintEnd_toEndOf="@+id/btnpass"
+        app:layout_constraintStart_toStartOf="@+id/btnpass"
+        app:layout_constraintTop_toBottomOf="@+id/btnpass" />
+
+    <TextView
+        android:id="@+id/txtobj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/btnobj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnobj"
+        app:layout_constraintTop_toTopOf="@+id/btnobj" />
+
+    <Button
+        android:id="@+id/btngetobj"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onclick"
+        android:textSize="15sp"
+        android:text="@string/get_obj"
+        app:layout_constraintEnd_toEndOf="@+id/btnobj"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnobj"
+        app:layout_constraintTop_toBottomOf="@+id/btnobj" />
+
+
+    <TextView
+        android:id="@+id/txtgetobj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btngetobj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btngetobj"
+        app:layout_constraintTop_toTopOf="@+id/btngetobj" />
+
+    <Button
+        android:id="@+id/btncallback"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onclick"
+        android:text="@string/call_back_from_jni"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btngetobj"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btngetobj"
+        app:layout_constraintTop_toBottomOf="@+id/btngetobj"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/txtcallback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/btncallback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btncallback"
+        app:layout_constraintTop_toTopOf="@+id/btncallback" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
